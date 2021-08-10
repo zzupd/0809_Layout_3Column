@@ -44,7 +44,24 @@ header#header {
 
 /* main#main 시작 */
 
+/* display: table 레이아웃 적용 시작 */
+main#main {
+  display: table;
+}
+#main div.tblRow {
+  display: table-row;
+}
+#main .tblCell {
+  vertical-align: top;
+  display: table-cell;
+}
+/* display: table 레이아웃 적용 끝 */
+
 /* nav#gnb 시작 */
+main#main nav#gnb {
+  width: 160px;
+}
+
 main#main nav#gnb h3 {
   color: #fff;
   font-weight: normal;
@@ -89,6 +106,10 @@ div#contents p {
 /* div#contents 끝 */
 
 /* aside#notice 시작 */
+aside#notice {
+  width: 191px;
+  padding: 6px;
+}
 
 aside#notice div.schedule {
   margin: 12px 0;
