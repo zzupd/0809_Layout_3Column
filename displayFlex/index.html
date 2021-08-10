@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>레이아웃</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div id="wrap">
+
+        <header id="header">
+            <h1>Musee d'Orsay</h1>
+            <h3>
+                Lorem ipsum dolor, 
+                sit amet consectetur adipisicing elit. 
+                Consequatur, animi.
+            </h3>
+            <p>Royal Academy of Arts. THE REAL VANGOGH</p>
+        </header>        
+        <!-- header#header -->
+
+        <main id="main">
+            <nav id="gnb">
+                <h3>ARTIST</h3>
+                <ul id="mainMenu">
+                    <li class="mainLi">
+                        <a href="#">작가의 작품</a>
+                    </li>
+                    <li class="mainLi">
+                        <a href="#">작가의 시대</a>
+                    </li>
+                    <li class="mainLi">
+                        <a href="#">작가의 일생</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- nav#gnb -->
+
+            <div id="contents">
+
+                <article>
+                    <h3>피리부는 소년</h3>
+                    <h4>에두아르마네</h4>
+                    <p>
+                        1866 캔버스에 유채, 
+                        161*97cm,
+                        파리 오르세
+                    </p>
+                </article>
+                <article>
+                    <h3>고흐의 방</h3>
+                    <h4>빈센트 반 고흐</h4>
+                    <p>
+                        1889 캔버스에 유채,
+                        57.5*74cm,
+                        파리 오르세
+                    </p>
+                </article>
+                <article>
+                    <h3>황색 그리스도가 있는 화가의 자화상</h3>
+                    <h4>폴 고객</h4>
+                    <p>
+                        1890-1891
+                        캔버스에 유채, 38*46cm
+                        파리 오르세
+                    </p>
+                </article>
+
+            </div>
+            <!-- div#contents -->
+
+            <aside id="notice">
+                <h2>
+                    <span>전세계인들에게</span>
+                    <span>제일 사랑받는</span>
+                    서양미술사의 시대                    
+                </h2>
+
+                <div id="noticeList">
+
+                    <div class="schedule">
+                        <h4>
+                            <a href="#">Workshop Go</a>
+                        </h4>
+                        <p>Life drowing workshop</p>
+                    </div>
+                    
+                    <div class="schedule">
+                        <h4>
+                            <a href="#">Summer exhibition</a>
+                        </h4>
+                        <p>A-level Summer Exhibition Online 2010</p>
+                    </div>
+
+                    <div class="schedule">
+                        <h4>
+                            <a href="#">RA collection</a>
+                        </h4>
+                        <p>RA collection</p>
+                    </div>
+
+                </div>
+
+
+                <!-- 
+                    div#noticeList>((h4>a[href])+p)*3
+                 -->
+
+            </aside>
+            <!-- aside#notice -->
+ 
+        </main>
+        <!-- main#main -->
+
+        <footer id="footer">
+            &copy; Lorem ipsum dolor sit amet 
+            consectetur adipisicing elit. 
+            Possimus, et magnam fugiat
+        </footer>
+        <!-- footer#footer -->
+
+    </div>
+    <!-- div#wrap -->
+    
+</body>
+</html>

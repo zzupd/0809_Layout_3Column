@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+/* Reset 시작 */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+/* Reset 끝 */
+
+/* div#wrap 시작 */
+div#wrap {
+  width: 680px;
+  border: 1px solid #000;
+  margin: 0 auto;
+}
+/* div#wrap 끝 */
+
+/* header#header 시작 */
+header#header {
+  color: #fff;
+  text-align: center;
+  background-color: #f59127;
+}
+#header h1 {
+  font-size: 80px;
+}
+#header h3 {
+  font-weight: normal;
+}
+
+#header p {
+  color: #000;
+  height: 22px;
+  font-size: 13px;
+  line-height: 22px;
+  background-color: #b3b6a3;
+}
+/* header#header 끝 */
+
+/* main#main 시작 */
+
+/* 플로트레이아웃 적용 시작 */
+main#main nav#gnb,
+main#main div#contents,
+main#main aside#notice {
+  float: left;
+}
+/* 플로트레이아웃 적용 끝 */
+
+/* nav#gnb 시작 */
+main#main nav#gnb {
+  width: 150px;
+}
+main#main nav#gnb h3 {
+  color: #fff;
+  font-weight: normal;
+  padding: 6px;
+  background-color: #641300;
+}
+
+nav#gnb ul#mainMenu {
+  padding: 6px;
+}
+nav#gnb a {
+  color: #000;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 30px;
+}
+/* nav#gnb 끝 */
+
+/* div#contents 시작 */
+div#contents {
+  padding: 10px 8px 12px 6px;
+  background-color: #b3b6a3;
+}
+
+div#contents article {
+  margin-bottom: 20px;
+}
+
+div#contents h3 {
+  color: #fff;
+  font-weight: normal;
+  padding: 4px;
+  background-color: #011920;
+}
+div#contents h4 {
+  margin: 18px 0;
+}
+div#contents p {
+  font-size: 12px;
+}
+
+/* div#contents 끝 */
+
+/* aside#notice 시작 */
+aside#notice {
+  width: 191px;
+  padding: 8px;
+  /* border: 1px solid #000; */
+}
+
+aside#notice div.schedule {
+  margin: 12px 0;
+}
+aside#notice h2 {
+  font-size: 21px;
+}
+aside#notice h2 span {
+  text-decoration: underline;
+}
+aside#notice h2 span:first-child {
+  color: #82877d;
+}
+aside#notice h2 span:nth-child(2) {
+  color: #d39842;
+}
+
+#notice div#noticeList a,
+#notice div#noticeList p {
+  color: #000;
+  font-size: 14px;
+}
+/* aside#notice 끝 */
+
+/* main#main 끝 */
+
+/* footer#footer 시작 */
+footer#footer {
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  padding: 8px;
+  background-color: #07292f;
+  clear: both;
+}
+/* footer#footer 끝 */
