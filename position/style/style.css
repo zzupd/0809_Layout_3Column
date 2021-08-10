@@ -44,7 +44,17 @@ header#header {
 
 /* main#main 시작 */
 
+main#main {
+  position: relative;
+}
+
 /* nav#gnb 시작 */
+main#main nav#gnb {
+  width: 160px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
 main#main nav#gnb h3 {
   color: #fff;
   font-weight: normal;
@@ -65,7 +75,9 @@ nav#gnb a {
 
 /* div#contents 시작 */
 div#contents {
+  width: 320px;
   padding: 10px 8px 12px 6px;
+  margin-left: 160px;
   background-color: #b3b6a3;
 }
 
@@ -89,6 +101,13 @@ div#contents p {
 /* div#contents 끝 */
 
 /* aside#notice 시작 */
+aside#notice {
+  width: 190px;
+  padding: 6px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
 
 aside#notice div.schedule {
   margin: 12px 0;
